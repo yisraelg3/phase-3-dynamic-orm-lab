@@ -1,4 +1,4 @@
-#Dynamic ORM Lab
+# Dynamic ORM Lab
 
 ## Objectives
 
@@ -29,7 +29,3 @@ Note: The only code the `Student` class needs to contain is the code to create t
 This is a test-driven lab, so run the specs and get them to pass. (Note:
 You might need to install some dependencies to get the tests running — that's
 okay! As Jedi Master Obi-Wan Kenobi would say, "Use the Gemfile, Luke!")
-
-
-
-
