@@ -1,9 +1,9 @@
 # Dynamic ORM Lab
 
-## Objectives
+## Learning Goals
 
-1. Construct an ORM superclass that can be used for multiple classes
-2. Inherit the methods from the ORM class to the Student class
+- Construct an ORM superclass that can be used for multiple classes
+- Inherit the methods from the ORM class to the Student class
 
 ## Dynamic ORMs & Inheritance
 
