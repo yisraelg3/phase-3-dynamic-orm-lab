@@ -45,11 +45,13 @@ describe Student do
   end
 
   describe 'initialize' do
+    # binding.pry
     it 'creates an new instance of a student' do
       expect(Student.new).to be_a Student
     end
 
     it 'creates a new student with attributes' do
+      
       expect(new_student.name).to eq("Sam")
     end
   end
@@ -60,6 +62,7 @@ describe Student do
       new_name = new_student.name = "Jo"
       old_grade = new_student.grade
       new_grade = new_student.grade = 12
+      
       expect(old_name).to eq("Sam")
       expect(new_name).to eq("Jo")
       expect(old_grade).to eq(11)
@@ -113,6 +116,7 @@ describe Student do
   describe '.find_by' do
     it 'executes the SQL to find a row by the attribute passed into the method' do
       Student.new({name: "Susan", grade: 10}).save
+      # binding.pry
       expect(Student.find_by({name: "Susan"})).to eq([{"id"=>1, "name"=>"Susan", "grade"=>10}])
     end
 
